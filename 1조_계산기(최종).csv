@@ -1,0 +1,20 @@
+﻿그룹 계층 구조,리전,설명,서비스,선불,월별,처음 12개월 합계,통화,구성 요약
+My Estimate,Asia Pacific (Seoul),WEB,Amazon EC2,0,582.296694,6987.56,USD,"운영 체제 (Linux), 스토리지 크기 (0 GB), DT 인바운드: Internet (0 월별 TB), DT 아웃바운드: Not selected (0 월별 TB), DT 리전 내: (0 월별 TB), Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 10, Peak: 20, Duration of peak: 8 Hr 30 Min)), 고급 EC2 인스턴스 (t4g.large), Pricing strategy (EC2 Instance Savings Plans 1yr No Upfront), 스냅샷 빈도 (스냅샷 스토리지 없음)"
+My Estimate,Asia Pacific (Seoul),WAS,Amazon EC2,0,1830.660494,21967.93,USD,"운영 체제 (Red Hat Enterprise Linux), 스토리지 크기 (30 GB), DT 인바운드: Internet (0 월별 TB), DT 아웃바운드: Not selected (0 월별 TB), DT 리전 내: (0 월별 TB), Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 5, Peak: 10, Duration of peak: 8 Hr 30 Min)), 고급 EC2 인스턴스 (t4g.2xlarge), Pricing strategy (EC2 Instance Savings Plans 1yr No Upfront), 스냅샷 빈도 (스냅샷 스토리지 없음)"
+My Estimate,Asia Pacific (Seoul),DB,Amazon RDS for Oracle,0,6281.9839999999995,75383.81,USD,"각 RDS 인스턴스의 스토리지 (범용 SSD(gp2)), 스토리지 크기 (1 TB), 노드 수 (1), 인스턴스 유형 (db.m5.8xlarge), 배포 옵션 (Multi-AZ), 요금 모델 (OnDemand), 라이선스 (Bring your own license), 데이터베이스 에디션 (Enterprise), 추가 백업 스토리지 (5 TB)"
+My Estimate,Asia Pacific (Seoul),VPC,Amazon Virtual Private Cloud (VPC),0,1.134,13.61,USD,"DT 인바운드: Internet (10 월별 GB), DT 아웃바운드: Internet (10 월별 GB), DT 리전 내: (0 월별 TB)"
+My Estimate,Asia Pacific (Seoul),,Amazon Virtual Private Cloud (VPC),0,44.25,531.00,USD,NAT 게이트웨이 수 (1)
+My Estimate,Asia Pacific (Seoul),server log storage,S3 Glacier,0,25.6,307.20,USD,S3 Glacier 스토리지 (5 TB per 월)
+My Estimate,Asia Pacific (Seoul),L4스위치,Network Load Balancer,0,33.09,397.08,USD,"Network Load Balancer 수 (2), TCP에 대한 NLB당 처리된 바이트 수 (20 GB per 월)"
+My Estimate,Asia Pacific (Seoul),CloudWatch,Amazon CloudWatch,0,56.4471,677.37,USD,"지표 수(세부 및 사용자 지정 지표 포함) (150), S3에 전송된 로그: 수집된 데이터 (10 GB), 표준 로그: 수집된 데이터 (10 GB)"
+My Estimate,Asia Pacific (Seoul),Lambda,AWS Lambda,0,1.1,13.20,USD,요청 수 (2678400)
+My Estimate,Asia Pacific (Seoul),private link,Amazon Virtual Private Cloud (VPC),0,19.38,232.56,USD,리전당 인터페이스 VPC 엔드포인트 수 (1)
+My Estimate,Asia Pacific (Seoul),EIP,Amazon Elastic IP,0,0.1,1.20,USD,"EC2 인스턴스 수 (1), 인스턴스당 EIP 수 (1), EIP 재매핑 수 (1)"
+My Estimate,Asia Pacific (Seoul),,AWS Web Application Firewall (WAF),0,114,1368.00,USD,"사용된 웹 ACL(액세스 제어 목록) 수 (2 월별), 웹 ACL당 규칙 그룹 수 (26 월별), 각 규칙 그룹 내 규칙 수 (3 월별)"
+My Estimate,Asia Pacific (Seoul),NIDS-&gt;IPS,Amazon GuardDuty,0,23,276.00,USD,VPC 흐름 로그 분석 (20 GB per 월)
+My Estimate,Asia Pacific (Seoul),FIREWALL,AWS Config,0,100.021,1200.25,USD,"기록된 구성 항목 수 (7), Config 규칙 평가 수 (100000)"
+
+
+
+확인
+"* AWS Pricing Calculator는 AWS 요금에 대한 예상 비용만 제공하며, 해당되는 세금은 포함하지 않습니다. 실제 요금은 AWS 서비스의 실제 사용량을 포함하여 다양한 요소에 따라 달라질 수 있습니다."
